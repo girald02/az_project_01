@@ -88,3 +88,15 @@ OPENROWSET (
     FORMAT = 'PARQUET'
 ) AS Quer1
 
+
+CREATE EXTERNAL DATA SOURCE sourSilver WITH
+(
+    LOCATION = 'https://storagedatalakeproject1.blob.core.windows.net/silver'
+)
+
+
+CREATE EXTERNAL FILE FORMAT formatParquet WITH
+(
+    FORMAT_TYPE = PARQUET,
+    DATA_COMPRESSION = 'org.apache.hadoop.io.compresss.SnappyCodec'
+)
