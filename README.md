@@ -1,5 +1,6 @@
 # 🚀 AZ Adventure Works Project
 **Project Type:** End-to-End Azure Data Engineering Part 1
+
 **Cloud Platform:** Microsoft Azure  
 
 ---
