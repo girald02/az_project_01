@@ -141,8 +141,8 @@ FROM OPENROWSET(
 ---
 
 ## 🤝 Acknowledgements
-Thanks to Microsoft Azure learning resources and the Adventure Works dataset for enabling this hands-on project experience.
-https://www.youtube.com/watch?v=0GTZ-12hYtU
+- [x] Thanks to Microsoft Azure learning resources and the Adventure Works dataset for enabling this hands-on project experience.
+- [x] Reference: https://www.youtube.com/watch?v=0GTZ-12hYtU
 ---
 
 ## 📬 Contact
