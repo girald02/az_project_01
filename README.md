@@ -11,6 +11,32 @@ This project showcases a complete Azure-based Data Engineering workflow. It demo
 
 The pipeline follows the **Bronze-Silver-Gold** data architecture pattern and concludes with data visualization in Power BI.
 
+## 🧩 Problem & Solution
+
+### ❗ Problem Statement
+
+Traditional data platforms often struggle with:
+
+- Siloed data sources (CSV files, APIs, etc.)
+- Manual and error-prone data processing
+- Scalability issues in handling large datasets
+- Lack of real-time insights for business users
+
+In the case of **Adventure Works**, the organization faced challenges in transforming raw operational data into meaningful analytics across multiple departments (Sales, Customers, Orders, etc.).
+
+### ✅ Solution (The Fix)
+
+This project implements a **modern, scalable Azure Data Engineering pipeline** using a modular **Bronze-Silver-Gold** architecture to address these pain points:
+
+- **Ingest** data from multiple sources using **Azure Data Factory**
+- **Transform** and clean data using **Azure Databricks (PySpark)**
+- **Curate** structured datasets in **Azure Synapse Analytics** for downstream analytics
+- **Visualize** data with **Power BI** to drive actionable insights
+
+This end-to-end pipeline ensures **data quality, scalability, and business intelligence readiness**, making it easier for teams to make informed decisions.
+
+
+
 ---
 
 ## 🗺️ Architecture Flow
@@ -122,7 +148,7 @@ FROM OPENROWSET(
 
 ---
 
-## 📂 Folder Structure (Suggested)
+## 📂 Folder Structure
 
 ```
 📁 AZ-Adventure-Works-Project/
