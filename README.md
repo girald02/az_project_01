@@ -40,6 +40,7 @@ This end-to-end pipeline ensures **data quality, scalability, and business intel
 ---
 
 ## 🗺️ Architecture Flow
+![Alt Text](https://raw.githubusercontent.com/girald02/az_project_01/refs/heads/main/img/P1_Architecture.jpg)
 
 1. **Bronze Layer (Raw Data):** Ingest raw CSV/API data using Azure Data Factory
 2. **Silver Layer (Cleaned Data):** Transform data in Azure Databricks (PySpark)
